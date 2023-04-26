@@ -1,0 +1,47 @@
+.navbar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar li {
+  margin: 0 10px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #333;
+}
+
+.navbar a:hover {
+  color: #666;
+}
+
+/* Slide animasi */
+.slide {
+  display: none;
+  position: absolute;
+  top: 60px;
+  left: 0;
+  right: 0;
+  padding: 10px;
+  background-color: #f0f0f0;
+}
+
+.navbar:hover .slide {
+  display: block;
+}
+
+.slide li {
+  margin: 5px 0;
+}
+
+.slide a {
+  color: #333;
+}
+
+.slide a:hover {
+  color: #666;
+}
